@@ -1,5 +1,19 @@
 # studyhadoop
 
+update & install
+ref : http://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/
+sudo yum -y update && yum -y upgrade
+yum install net-tools
+turn on disabled network interface
+sudo vi /etc/hostname
+sudo yum -y install gcc
+sudo yum -y install wget
+sudo yum -y install telnet
+sudo yum install epel-release
+sudo rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+sudo rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
+sudo yum install p7zip
+
 
 structure
 home 
