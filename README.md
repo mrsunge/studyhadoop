@@ -18,7 +18,7 @@ update & install
         sudo yum install p7zip
 
 structure
-home 
-        hadoop
-                hadoop-x.x.x
-                hive-x.x.x
+	home 
+        	hadoop
+                	hadoop-x.x.x
+                	hive-x.x.x
