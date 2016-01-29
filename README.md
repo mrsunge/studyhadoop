@@ -22,3 +22,7 @@ structure
         	hadoop
                 	hadoop-x.x.x
                 	hive-x.x.x
+
+-- tez
+ sudo yum -y install npm
+ sudo yum -y install protobuf-c-compiler.x86_64
