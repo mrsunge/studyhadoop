@@ -1,0 +1,3 @@
+NAT : ifcfg-enp0s3
+Internal : ifcfg-enp0s8
+Host Only : ifcfg-enp0s9
