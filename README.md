@@ -1,8 +1,8 @@
 # studyhadoop
 
 #### reference site
-** http://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/
-** http://pingax.com/install-apache-hadoop-ubuntu-cluster-setup/
+* http://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/
+* http://pingax.com/install-apache-hadoop-ubuntu-cluster-setup/
 
 #### update & install
 ```bash
