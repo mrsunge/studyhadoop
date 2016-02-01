@@ -1,16 +1,21 @@
 # Study Hadoop 
 
+#### Tools 
+* VirtualBox : https://www.virtualbox.org/
+* putty : http://www.chiark.greenend.org.uk/~sgtatham/putty/
+* SuperPuTTy : https://github.com/jimradford/superputty
+
 #### VierualBox setting.
-* Make 4 guest OS.
+* Make 4 guests OS(Centos 7).
  * Master.
    * Name node.
-    * secondary name node.
+    * Secondary name node.
     * Resource manager.
  * 3 Slaves.
    * Node manager.
     * Data node.
-* Add 3 network interface.
- * NAT : for internet.
+* Add 3 network interface to all guests OS.
+ * NAT : to use internet.
  * Host only : to communicate with host OS.
  * Internel Network : to communicate with guest OS.
 
