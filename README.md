@@ -1,12 +1,20 @@
 # Study Hadoop 
 
+#### Environment
+* VirtualBox with 4 guests OS.
+* Hadoop-2.7.2 precompiled stable versionn.
+* CentOS7 minimum install.
+* jdk-1.8.0
+* Spark-1.6.0 precompiled version.
+* Hive-1.2.1
+
 #### Tools 
 * VirtualBox : https://www.virtualbox.org/
 * putty : http://www.chiark.greenend.org.uk/~sgtatham/putty/
 * SuperPuTTy : https://github.com/jimradford/superputty
 
 #### VierualBox setting.
-* Make 4 guests OS(Centos 7).
+* Make 4 guests OS.
  * Master.
    * Name node.
     * Secondary name node.
@@ -20,8 +28,12 @@
  * Internel Network : to communicate with guest OS.
 
 #### Reference site
+* http://git-scm.com/
+* http://hadoop.apache.org/
+* http://spark.apache.org/
+* https://hive.apache.org/downloads.html
 * http://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/
-* http://pingax.com/install-apache-hadoop-ubuntu-cluster-setup/
+* http://pi ngax.com/install-apache-hadoop-ubuntu-cluster-setup/
 
 #### Update & Install
 ```bash
@@ -44,3 +56,7 @@ structure
                 	hive-x.x.x
 
 ```
+
+#### SQLTag Member's github
+* https://github.com/ithenine/vagrant
+* https://github.com/JudyDBA/sqltag
