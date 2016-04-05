@@ -62,7 +62,7 @@ structure
 * https://github.com/JudyDBA/sqltag
 
 #### Hive
-``` 
+``` create table for loading CSV file.
 create table test(col1 int, col2 int, col3 int) 
 row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde' 
 with serdeproperties("separatorchar" = ",", "esapechar" = "\\");
