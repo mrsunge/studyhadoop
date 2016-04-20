@@ -1,0 +1,6 @@
+<configuration>
+  <property>
+    <name>tez.lib.uris</name>
+    <value>/app/tez-0.8.3/tez-0.8.3.tar.gz</value>
+  </property>
+</configuration>
