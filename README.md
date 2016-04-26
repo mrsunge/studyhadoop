@@ -61,6 +61,35 @@ structure
 * https://github.com/ithenine/vagrant
 * https://github.com/JudyDBA/sqltag
 
+#### Tez 
+```
+url : https://tez.apache.org/install.html
+
+Install brew
+  url : https://www.digitalocean.com/community/tutorials/how-to-install-and-use-linuxbrew-on-a-linux-vps
+  command 
+    $ sudo yum update -y
+    $ sudo yum groupinstall -y "Development Tools"
+  
+Install ProtocolBuffer
+  * should check required protocol buffer version wrote in pom.xml. don't change version in pom.xml
+  url : https://github.com/google/protobuf/tags/
+  command 
+    $ congigure
+    $ make
+    $ make check
+    $ make install
+
+Make Tez  
+  mvn clean package -DskipTests=true -Dmaven.javadoc.skip=true
+  
+Configure
+  set TEZ_CONF_DIR for tez-site.xml
+  copy made tez tarbal to hdfs
+  set tez tarbal path in tez-site.xml
+  
+```
+
 #### Hive
 ``` 
 * create table for loading CSV file.
