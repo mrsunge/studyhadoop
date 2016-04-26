@@ -85,9 +85,10 @@ Make Tez
   
 Configure
   set TEZ_CONF_DIR for tez-site.xml
+  set TEZ_JARS for tez jar files(tar -xvzf tez-dist/target/tez-x.y.z-minimal.tar.gz -C $TEZ_JARS)
   copy made tez tarbal to hdfs
   set tez tarbal path in tez-site.xml
-  
+  add tez jar path to HADOOP_CLASSPATH. 
 ```
 
 #### Hive
