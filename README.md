@@ -101,4 +101,7 @@ Configure
 setup for tez
   copy hive-exec-x.y.z.jar to tez tarbal path on hdfs. 
   set hive.execution.engine to tez in hive-site.xml
+  
+setup vectorized to enable
+  set hive.vectorized.execution.enabled to true.
 ```
