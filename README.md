@@ -94,7 +94,11 @@ Configure
 #### Hive
 ``` 
 * create table for loading CSV file.
-create table test(col1 int, col2 int, col3 int) 
-row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde' 
-with serdeproperties("separatorchar" = ",", "esapechar" = "\\");
+  create table test(col1 int, col2 int, col3 int) 
+  row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde' 
+  with serdeproperties("separatorchar" = ",", "esapechar" = "\\");
+
+setup for tez
+  copy hive-exec-x.y.z.jar to tez tarbal path on hdfs. 
+  set hive.execution.engine to tez in hive-site.xml
 ```
